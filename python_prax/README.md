@@ -52,4 +52,9 @@ Queues uses FIFO
 
 
 
+Exercises are from 
+- Neetcode.io
+- Blind75
+- https://github.com/xizhang20181005/Leetcode_company_frequency
+
 
