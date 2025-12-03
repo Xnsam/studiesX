@@ -50,6 +50,16 @@ Queues uses FIFO
 4. retrieve the result
 
 
+<br>
+
+**F. Trees**
+Tree is created using a class with val, next attributes
+BFS uses queues , deque to be specific for traversing each level
+DFS uses stack to traverse the tree in pre / in / post orders.
+pre : Root -> Left -> Right
+in : Left -> Root -> Right
+post : Left -> Right -> Root
+
 
 
 Exercises are from 
