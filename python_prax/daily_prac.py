@@ -1,20 +1,20 @@
+import math
 
-def daily_temp(temps: list) -> list:
-    stack = []
-    days = [0] * len(temps)
+def prax(n: int) -> int:
+    sqrt5 = math.sqrt(5)
+    phi = (1 + sqrt5) / 2
+    psi = (1 - sqrt5) / 2
 
-    for i, t in enumerate(temps):
-        while stack and t > stack[-1][0]:
-            prev_t, prev_i = stack.pop()
-            days[prev_i] = i - prev_i
-        stack.append((t, i))
-    return days
+    n += 1
+    return round((phi ** n - psi ** n) / sqrt5)
+
 
 tests = [
-    ([30,38,30,36,35,40,28], [1,4,1,2,1,0,0])
+    (2, 2),
+    (3, 3)
 ]
 
 
 for idx, t in enumerate(tests):
-    res = daily_temp(t[0])
+    res = prax(t[0])
     print(idx, " ", "Test passed" if res == t[1] else "Test Failed")
