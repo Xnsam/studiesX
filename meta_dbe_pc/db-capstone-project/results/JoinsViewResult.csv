@@ -1,0 +1,13 @@
+CustomerId,CustName,OrderId,TotalCost,MenuName,CourseName
+32,Customer_32,10,150,MenuName10,Course10
+2,Customer_2,11,150,MenuName11,Course11
+11,Customer_11,29,156,MenuName29,Course29
+8,Customer_8,43,156,MenuName43,Course43
+36,Customer_36,15,157,MenuName15,Course15
+37,Customer_37,48,167,MenuName48,Course48
+8,Customer_8,33,178,MenuName33,Course33
+36,Customer_36,2,185,MenuName2,Course2
+20,Customer_20,50,187,MenuName50,Course50
+10,Customer_10,14,198,MenuName14,Course14
+41,Customer_41,16,198,MenuName16,Course16
+28,Customer_28,30,200,MenuName30,Course30
