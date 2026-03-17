@@ -1,0 +1,7 @@
+transformers
+huggingface
+scikit-learn
+pandas
+numpy
+seaborn
+torch

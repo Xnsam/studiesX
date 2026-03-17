@@ -1,0 +1,19 @@
+[project]
+name = "hollm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.8.2",
+    "huggingface>=0.0.1",
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "sentence-transformers>=5.3.0",
+    "torch>=2.10.0",
+    "transformers>=5.3.0",
+]
